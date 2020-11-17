@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(orange.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: relative;
+    top: 700px;
+    left: 20%;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+}
+
+.loginbox {
+    width: 1220px;
+    height: 620px;
+    background: rgb(63, 63, 63);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.person {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(95% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 59%;
+    top: 50%;
+    left: 20%;
+    position: absolute;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(209, 206, 206);
+}
+
+.box {
+    width: 1135px;
+    height: 155px;
+    background: rgb(230, 227, 227);
+    color: #fff;
+    top: 57.9%;
+    left: 49.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
