@@ -3,9 +3,14 @@ body {
     padding: 0;
     font-family: sans-serif;
     background: url(orange.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+    background-size: auto;
+}
+
+.logo {
+    vertical-align: top;
+    position: relative;
+    width: 15%;
+    top: 10px;
 }
 
 .button {
@@ -28,12 +33,46 @@ body {
     background-color: #f1f1f1;
 }
 
+.button2 {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: relative;
+    top: -480px;
+    left: 20%;
+}
+
+.button2:hover {
+    background-color: #f1f1f1;
+}
+
 .loginbox {
+    vertical-align: top;
     width: 1220px;
     height: 620px;
     background: rgb(63, 63, 63);
     color: #fff;
     top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginbox2 {
+    width: 1220px;
+    height: 1000px;
+    background: rgb(63, 63, 63);
+    color: #fff;
+    top: 65%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -90,13 +129,148 @@ tr:nth-child(even) {
 
 .box {
     width: 1135px;
-    height: 155px;
+    height: 130px;
     background: rgb(230, 227, 227);
     color: #fff;
-    top: 57.9%;
+    top: 57%;
     left: 49.5%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+}
+
+.boxT {
+    width: 1136px;
+    height: 10px;
+    background: rgb(83, 83, 83);
+    color: #fff;
+    top: 40%;
+    left: 49.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.container {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: 300px;
+    left: 60%;
+}
+
+.container2 {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: 63px;
+    left: 40%;
+}
+
+.container3 {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: -175px;
+    left: 20%;
+}
+
+.container4 {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: -100px;
+    left: 60%;
+}
+
+.container5 {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: -338px;
+    left: 40%;
+}
+
+.container6 {
+    vertical-align: top;
+    position: relative;
+    width: 20%;
+    top: -575px;
+    left: 20%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 80%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.container2:hover .image {
+    opacity: 0.3;
+}
+
+.container2:hover .middle {
+    opacity: 1;
+}
+
+.container3:hover .image {
+    opacity: 0.3;
+}
+
+.container3:hover .middle {
+    opacity: 1;
+}
+
+.container4:hover .image {
+    opacity: 0.3;
+}
+
+.container4:hover .middle {
+    opacity: 1;
+}
+
+.container5:hover .image {
+    opacity: 0.3;
+}
+
+.container5:hover .middle {
+    opacity: 1;
+}
+
+.container6:hover .image {
+    opacity: 0.3;
+}
+
+.container6:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
