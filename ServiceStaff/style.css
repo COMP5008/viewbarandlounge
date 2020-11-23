@@ -24,9 +24,131 @@ body{
 .table-wrapper
 {
     border: 1px solid white;
-    width: 1150px;
+    max-width: 1160px;
     height: 480px;
     overflow: auto;
+}
+
+.table-wrapper1
+{
+    max-width: 1160px;
+    height: 480px;
+    overflow: auto;
+}
+
+.table-wrapper2
+{
+    border: 1px solid white;
+    width: 350px;
+    height: 480px;
+	background: #fff;
+	float: left;
+	
+}
+
+.table-wrapper3
+{
+    width: 300px;
+    height: 480px;
+	float: left;
+	margin: 35px;
+}
+
+.table-wrapper4
+{
+    width: 300px;
+    height: 480px;
+	float: left;
+}
+
+
+.appetiser-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 70px;
+    overflow: auto;
+	float: left;
+}
+
+.main-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 70px;
+    overflow: auto;
+	float: left;
+}
+
+.side-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 70px;
+    overflow: auto;
+	float: left;
+}
+
+.dessert-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 70px;
+    overflow: auto;
+	float: left;
+}
+
+.drinks-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 70px;
+    overflow: auto;
+	float: left;
+}
+.appetiser1-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 400px;
+    overflow: auto;
+	float: left;
+}
+
+.main1-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 400px;
+    overflow: auto;
+	float: left;
+}
+
+.side1-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 400px;
+    overflow: auto;
+	float: left;
+}
+
+.dessert1-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 400px;
+    overflow: auto;
+	float: left;
+}
+
+.drinks1-wrapper
+{
+    border: 1px solid white;
+    width: 225px;
+    height: 400px;
+    overflow: auto;
+	float: left;
 }
 
 table, th, td {
@@ -35,6 +157,57 @@ table, th, td {
   padding: 15px;
   text-align: left;
   border-spacing: 5px;
+}
+
+
+.popup .overlay {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100vw;
+	height:100vh;
+	background:rgba(0,0,0,0,0,.7);
+	z-index:1;
+	display:none;
+}
+
+.popup .content {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%) scale(0);
+	background:#fff;
+	width:450px;
+	height:220px;
+	z-index:2;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.popup .close-btn {
+	cursor:pointer;
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:30px;
+	height:30px;
+	background:#222;
+	color:#fff;
+	font-size:25px;
+	font-weight:600;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+}
+
+.popup.active .overlay {
+	display:block;
+}
+
+.popup.active .content{
+	transition:all 300ms ease-in-out;
+	transform:translate(-50%, -50%) scale(0);
 }
 
 
@@ -63,6 +236,38 @@ td
   cursor: pointer;
   border-radius: 32px;
 }
+
+.button1 {
+  background-color: rgb (255, 255, 255 );
+  border: none;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 32px;
+}
+
+.button2 {
+  background-color: rgb (255, 255, 255 );
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 32px;
+  width: 75%;
+  height: 25%;
+
+}
+
+
+
 
 .person{
 
