@@ -1,0 +1,9 @@
+1. maanagement style.css
+	2. shifts style3.css
+		2.1. assignshifts style3.css
+	3. emplyee details style2.css
+		3.1 emplyeeinfo style5.css
+	4. annoucements style4.css
+	5. customer details style2.css
+		5.1 customerinfo style5.css	
+	6. customer reservations style3.css
