@@ -1,0 +1,365 @@
+    @media screen and (min-width:1366px) {
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: url(../../img/inventory/orange.jpg);
+            background-size: auto;
+        }
+    }
+
+    .logo {
+        vertical-align: top;
+        position: relative;
+        width: 15%;
+        top: 10px;
+    }
+
+    @media screen and (min-width:1366px) {
+        .button {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+            position: relative;
+            top: 700px;
+            left: 10%;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .button:hover {
+            background-color: #fcfcfc;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .button2 {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+            position: relative;
+            top: -480px;
+            left: 20%;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .button2:hover {
+            background-color: #f1f1f1;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .button3 {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+            position: relative;
+            top: 450px;
+            left: 20%;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .button3:hover {
+            background-color: #fcfcfc;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .loginbox {
+            vertical-align: top;
+            width: 1220px;
+            height: 620px;
+            background: rgb(63, 63, 63);
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .loginbox2 {
+            width: 1220px;
+            height: 1000px;
+            background: rgb(63, 63, 63);
+            color: #fff;
+            top: 65%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .loginbox3 {
+            width: 1220px;
+            height: 600px;
+            background: rgb(63, 63, 63);
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+    }
+
+    .person {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: calc(95% - 50px);
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .loginbox p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .loginbox a {
+        text-decoration: none;
+        font-size: 10px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+    @media screen and (min-width:1366px) {
+        .table {
+            border-collapse: collapse;
+            width: 59%;
+            top: 50%;
+            left: 20%;
+            position: absolute;
+        }
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(209, 206, 206);
+    }
+
+    .box {
+        width: 1135px;
+        height: 130px;
+        background: rgb(230, 227, 227);
+        color: #fff;
+        top: 57%;
+        left: 49.5%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+
+    .box2 {
+        width: 1135px;
+        height: 210px;
+        background: rgb(230, 227, 227);
+        color: #fff;
+        top: 60.5%;
+        left: 49.5%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+
+    .boxT {
+        width: 1136px;
+        height: 10px;
+        background: rgb(83, 83, 83);
+        color: #fff;
+        top: 40%;
+        left: 49.5%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+
+    @media screen and (min-width:1366px) {
+        .container {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: 300px;
+            left: 60%;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .container2 {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: 63px;
+            left: 40%;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .container3 {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: -175px;
+            left: 20%;
+        }
+    }
+
+    .container4 {
+        vertical-align: top;
+        position: relative;
+        width: 20%;
+        top: -100px;
+        left: 60%;
+    }
+
+    .container5 {
+        vertical-align: top;
+        position: relative;
+        width: 20%;
+        top: -338px;
+        left: 40%;
+    }
+
+    .container6 {
+        vertical-align: top;
+        position: relative;
+        width: 20%;
+        top: -575px;
+        left: 20%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 80%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
+
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+
+    .container2:hover .image {
+        opacity: 0.3;
+    }
+
+    .container2:hover .middle {
+        opacity: 1;
+    }
+
+    .container3:hover .image {
+        opacity: 0.3;
+    }
+
+    .container3:hover .middle {
+        opacity: 1;
+    }
+
+    .container4:hover .image {
+        opacity: 0.3;
+    }
+
+    .container4:hover .middle {
+        opacity: 1;
+    }
+
+    .container5:hover .image {
+        opacity: 0.3;
+    }
+
+    .container5:hover .middle {
+        opacity: 1;
+    }
+
+    .container6:hover .image {
+        opacity: 0.3;
+    }
+
+    .container6:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+    @media screen and (min-width:1366px) {
+        textarea {
+            width: 61%;
+            height: 150px;
+            top: 200px;
+            left: 19%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: none;
+            position: relative;
+        }
+    }
