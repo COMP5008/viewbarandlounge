@@ -219,7 +219,7 @@
         padding: 70px 30px;
     }
     
-    @media screen and (min-width:1366px) {
+    @media screen and (min-width:992px) {
         .container {
             vertical-align: top;
             position: relative;
@@ -229,7 +229,7 @@
         }
     }
     
-    @media screen and (min-width:1366px) {
+    @media screen and (min-width:992px) {
         .container2 {
             vertical-align: top;
             position: relative;
@@ -239,7 +239,7 @@
         }
     }
     
-    @media screen and (min-width:1366px) {
+    @media screen and (min-width:992px) {
         .container3 {
             vertical-align: top;
             position: relative;
@@ -249,28 +249,34 @@
         }
     }
     
-    .container4 {
-        vertical-align: top;
-        position: relative;
-        width: 20%;
-        top: -100px;
-        left: 60%;
+    @media screen and (min-width:992px) {
+        .container4 {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: -100px;
+            left: 60%;
+        }
     }
     
-    .container5 {
-        vertical-align: top;
-        position: relative;
-        width: 20%;
-        top: -338px;
-        left: 40%;
+    @media screen and (min-width:992px) {
+        .container5 {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: -338px;
+            left: 40%;
+        }
     }
     
-    .container6 {
-        vertical-align: top;
-        position: relative;
-        width: 20%;
-        top: -575px;
-        left: 20%;
+    @media screen and (min-width:992px) {
+        .container6 {
+            vertical-align: top;
+            position: relative;
+            width: 20%;
+            top: -575px;
+            left: 20%;
+        }
     }
     
     .image {
@@ -355,19 +361,53 @@
         }
     }
     
-    @media screen and (min-width:1366px) {
-        textarea {
-            width: 61%;
-            height: 150px;
-            top: 200px;
-            left: 19%;
-            padding: 12px 20px;
-            box-sizing: border-box;
-            border: 2px solid #ccc;
-            border-radius: 4px;
-            background-color: #f8f8f8;
-            font-size: 16px;
-            resize: none;
-            position: relative;
-        }
+    textarea {
+        width: 61%;
+        height: 150px;
+        top: 190px;
+        left: 19%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+        position: relative;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .modal-content {
+        background-color: #fefefeb7;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
     }
