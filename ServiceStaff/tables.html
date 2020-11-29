@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login and Registration Form</title>
+	<title>Tables</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,13 +10,24 @@
 		<h1>Tables</h1>
 		<form>
 		<div class="table-wrapper">
+	
+	<div class="popup" id="popup-1">
+		<div class="overlay"></div>
+		<div class="content">
+			<div class="close-btn" onclick="togglePopup()">&times;
+		</div>
+			<h1>Table clear</h1>
+			<p>Are you sure you would like to clear table?</p>
+		</div>
+	</div>
+	
     <table style = "width:100%">
 		<caption
         <tr>
             <td>1</td>
             <td><button class="button">Take order</button> <br>
 				<button class="button">Take Payment</button> <br>
-				<button class="button">Clear Table</button> <br>
+				<button class="button" onclick="togglePopup()">Clear Table</button> <br>
 			</td>
             <td colspan="2">C</td>
         </tr>
@@ -71,11 +82,11 @@
         </tr>
 		
     </table>      
-</div>
-
+		</div>
+		</form>
 	</div>
 
-		</form>
+		
 		
 	</div>
 </body>
