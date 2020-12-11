@@ -13,30 +13,54 @@
     </div>
 
     <div class="container">
-        <a href="C:/Users/simen/Documents/GitHub/viewbarandlounge/Inventory/food.html" target="_blank"> <img src="images/meat.jpg" alt="Avatar" class="image" style="width:100%"></a>
+        <a href="food.html" target="_blank"> <img src="images/meat.jpg" alt="Avatar" class="image" style="width:100%"></a>
         <div class="middle">
             <div class="text">Food</div>
         </div>
     </div>
 
     <div class="container2">
-        <a href="C:/Users/simen/Documents/GitHub/viewbarandlounge/Inventory/drink.html" target="_blank"> <img src="images/soda.jpg" alt="Avatar" class="image" style="width:100%"></a>
+        <a href="drink.html" target="_blank"> <img src="images/soda.jpg" alt="Avatar" class="image" style="width:100%"></a>
         <div class="middle">
             <div class="text">Drinks</div>
         </div>
     </div>
 
     <div class="container3">
-        <a href="C:/Users/simen/Documents/GitHub/viewbarandlounge/Inventory/equipment.html" target="_blank"> <img src="images/kitchen.jpg" alt="Avatar" class="image" style="width:100%"></a>
+        <a href="equipment.html" target="_blank"> <img src="images/kitchen.jpg" alt="Avatar" class="image" style="width:100%"></a>
         <div class="middle">
             <div class="text">Equipment
             </div>
         </div>
     </div>
 
-    <button class="button2">Notes</button>
-    <button class="button2">Edit categories</button>
+    <a href="notepage.html"> <button class="button2">Notepad</button> </a>
+    <button class="button2" id="myBtn">Edit categories</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>A window like this would appear and let the user choose if they want to update/delete or edit a category</p>
+        </div>
 
+    </div>
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

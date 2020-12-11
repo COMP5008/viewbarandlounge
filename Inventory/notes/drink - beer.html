@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <img src="../images/view.png" alt="logo" class="logo">
+
+</head>
+
+<body>
+    <div class="loginbox">
+        <img src="../images/person.png" class="person">
+        <h1>View notes and storage status for beer</h1>
+        <form>
+            <p> Notepad:</p>
+    </div>
+    </form>
+    <div class="box2"></div>
+    <div class="boxT">
+    </div>
+    <form>
+        <textarea>Take notes...</textarea>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Type of food</th>
+                <th>Quantity</th>
+                <th>Last Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ale</td>
+                <td>40</td>
+                <td>09-11-2020</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Witbier</td>
+                <td>25</td>
+                <td>09-11-2020</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Indian Pale Ale</td>
+                <td>33</td>
+                <td>09-11-2020</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lager</td>
+                <td>22</td>
+                <td>09-11-2020</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Stout</td>
+                <td>26</td>
+                <td>09-11-2020</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <a href="../drink.html"> <button class="button3">Go back</button> </a>
+    <button class="button3" id="myBtn">Edit categories</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>A window like this would appear and let the user choose if they want to update/delete or edit a category</p>
+        </div>
+
+    </div>
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
